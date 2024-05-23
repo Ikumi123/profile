@@ -1,0 +1,55 @@
+@import url('https://fonts.googleapis.com/css2?family=Jacquard+12&display=swap');
+
+@media (max-width: 720px) {
+  /* For a screen < 720px, this CSS will be read */
+  .container {
+    width: 500px;
+  }
+}
+
+img {
+  border-radius: 50%;
+}
+
+body {
+  color:rgb(255, 255, 255);
+  background-color:rgb(0, 0, 0);
+  font-family:'Regular 400';
+  font-size:large;
+  line-height:normal;
+  text-align: center;
+  font-family: "Bebas Neue", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+  background-image: url("images/lewagon.png");
+}
+
+.black-card {
+  background: rgb(0, 0, 0);
+  padding: 5px;
+  border: 1px solid black;
+  width: 700px;   /* This sets the width */
+  margin: 20px auto; /* This automatically sets left/right margins */
+  border-radius: 25px;
+}
+
+button:hover {
+  background-color: lightblue;
+  color: black;
+  cursor: pointer;
+}
+
+ul li {
+  list-style: none;
+  display: inline-block;
+}
+
+ul {
+  padding: 0;
+}
+
+.iconsize{
+  font-size: 100px;
+  color: rgb(255, 255, 255);
+  width: 200px;
+}
